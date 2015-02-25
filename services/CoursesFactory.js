@@ -5,8 +5,9 @@ courseRoster.factory('CoursesFactory', function CoursesFactory() {
     factory.courses.push({ name: factory.courseName, id: factory.courses.length + 1, students: [] });
     factory.courseName = null;
   };
+
   return factory;
 });
 
 
-//return factory! ask about it. 
+//return factory! ask about it.
